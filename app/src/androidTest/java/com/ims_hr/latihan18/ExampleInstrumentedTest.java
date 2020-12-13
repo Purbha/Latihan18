@@ -1,4 +1,4 @@
-package com.ims_hr.app_dua;
+package com.ims_hr.latihan18;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

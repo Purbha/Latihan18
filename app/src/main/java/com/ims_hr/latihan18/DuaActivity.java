@@ -1,4 +1,4 @@
-package com.ims_hr.app_dua;
+package com.ims_hr.latihan18;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

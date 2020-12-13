@@ -1,4 +1,4 @@
-package com.ims_hr.app_dua;
+package com.ims_hr.latihan18;
 
 import org.junit.Test;
 
