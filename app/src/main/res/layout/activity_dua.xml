@@ -7,12 +7,15 @@
     tools:context=".DuaActivity">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:id="@+id/textView_Dua_Judul"
+        style="@style/textView_Style2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="App Dua Activity Dua"
+        android:layout_marginEnd="16dp"
+        android:text="@string/textView_Dua_Judul"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,7 +31,7 @@
         app:contentPadding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView">
+        app:layout_constraintTop_toBottomOf="@+id/textView_Dua_Judul">
 
         <LinearLayout
             android:id="@+id/LinearLayout_Dua"
@@ -42,37 +45,41 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:text="Irsyad Purbha"
-                android:textAlignment="center"
-                android:textStyle="bold" />
+                android:text="@string/textView_Dua_Nama"
+                style="@style/textView_Style1"
+                android:textAlignment="center" />
 
             <ImageView
                 android:id="@+id/imageView_Dua_Logo"
                 android:layout_width="match_parent"
                 android:layout_height="128dp"
                 android:scaleType="fitCenter"
+                android:contentDescription="@string/imageView_Logo"
                 android:layout_marginBottom="10dp"
                 app:srcCompat="@drawable/user" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textView_Dua_Add1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Yasmin Residence IV"
+                style="@style/textView_Style1"
+                android:text="@string/textView_Dua_Add1"
                 android:textAlignment="center" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/textView_Dua_Add2"
                 android:layout_width="match_parent"
+                style="@style/textView_Style1"
                 android:layout_height="wrap_content"
-                android:text="Jl. Wibawa Mukti 2 Gg Al-Falaq No.09"
+                android:text="@string/textView_Dua_Add2"
                 android:textAlignment="center" />
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/textView_Dua_Add_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RT.03/08 Jatiasih Bekasi 17411"
+                style="@style/textView_Style1"
+                android:text="@string/textView_Dua_Add3"
                 android:textAlignment="center" />
         </LinearLayout>
     </android.support.v7.widget.CardView>

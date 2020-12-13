@@ -3,4 +3,10 @@
     <string name="textView_Main_Judul1">Panggil App Satu Activity Satu</string>
     <string name="textView_Main_Judul2">Panggil App Dua Activity Dua</string>
     <string name="button_OK">OK</string>
+    <string name="imageView_Logo">ImageView Logo</string>
+    <string name="textView_Dua_Judul">App Dua Activity Dua</string>
+    <string name="textView_Dua_Nama">Irsyad Purbha</string>
+    <string name="textView_Dua_Add1">Yasmin Residence IV</string>
+    <string name="textView_Dua_Add2">Jl. Wibawa Mukti 2 Gg Al-Falaq No.09</string>
+    <string name="textView_Dua_Add3">RT.03/08 Jatiasih Bekasi 17411</string>
 </resources>
