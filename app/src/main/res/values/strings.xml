@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Latihan 18</string>
-    <string name="textView_Main_Judul1">Panggil App Satu Activity Satu</string>
-    <string name="textView_Main_Judul2">Panggil App Dua Activity Dua</string>
+    <string name="textView_Main_Judul1">Panggil Latihan 17 Activity Satu</string>
+    <string name="textView_Main_Judul2">Panggil Latihan 18 Activity Dua</string>
     <string name="button_OK">OK</string>
     <string name="imageView_Logo">ImageView Logo</string>
-    <string name="textView_Dua_Judul">App Dua Activity Dua</string>
+    <string name="textView_Dua_Judul">Latihan 18 Activity Dua</string>
     <string name="textView_Dua_Nama">Irsyad Purbha</string>
     <string name="textView_Dua_Add1">Yasmin Residence IV</string>
     <string name="textView_Dua_Add2">Jl. Wibawa Mukti 2 Gg Al-Falaq No.09</string>
