@@ -2,7 +2,8 @@
     <string name="app_name">Latihan 18</string>
     <string name="textView_Main_Judul1">Panggil Latihan 17 Activity Satu</string>
     <string name="textView_Main_Judul2">Panggil Latihan 18 Activity Dua</string>
-    <string name="button_OK">OK</string>
+    <string name="button_OK1">OK 1</string>
+    <string name="button_OK2">OK 2</string>
     <string name="imageView_Logo">ImageView Logo</string>
     <string name="textView_Dua_Judul">Latihan 18 Activity Dua</string>
     <string name="textView_Dua_Nama">Irsyad Purbha</string>
