@@ -6,7 +6,6 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.widget.Button;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.List;
@@ -14,6 +13,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     Button B_OK1, B_OK2;
+    ClassAlert classAlert;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     private void Inisial(){
         B_OK1 = findViewById(R.id.button_Main_OK1);
         B_OK2 = findViewById(R.id.button_Main_OK2);
+        classAlert = new ClassAlert(MainActivity.this);
     }
 
     private void Listen_B_OK2() {
@@ -38,18 +39,22 @@ public class MainActivity extends AppCompatActivity {
 
     private void Listen_B_OK1(){
         B_OK1.setOnClickListener(v -> {
-            String namaActivity = "com.ims_hr.latihan17.SatuActivity";
-            String namaPackage = "com.ims_hr.latihan17";
+            String namaActivity = "com.ims_hr.latihan177.SatuActivity";
+            String namaPackage = "com.ims_hr.latihan177";
             if(cekPackage(namaPackage) == true) {
                 Intent In = new Intent(namaActivity);
                 startActivity(In);
             } else {
+                classAlert.TampilAlert("Aplikasi tidak ditemukan.");
+                /*
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                 builder.setMessage("Aplikasi tidak ditemukan.");
                 builder.setTitle("Informasi");
                 builder.setPositiveButton("Okesip", (dialog, which) -> dialog.dismiss());
                 AlertDialog dialog = builder.create(); dialog.show();
+                */
             }
+
         });
     }
 
@@ -62,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
         for(ApplicationInfo info : ListAplikasi) {
             if(info.packageName.equals(namaPackage)) {
                 Hasil = true;
+                return Hasil;
             }
         }
         return Hasil;
