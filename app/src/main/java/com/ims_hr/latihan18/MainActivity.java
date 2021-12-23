@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
         boolean Hasil = false;
         List<ApplicationInfo> ListAplikasi;
         PackageManager packageManager = getPackageManager();
+        //https://developer.android.com/reference/android/content/pm/PackageManager#getInstalledApplications(int)
         ListAplikasi = packageManager.getInstalledApplications(0);
         for(ApplicationInfo info : ListAplikasi) {
             if(info.packageName.equals(namaPackage)) {
