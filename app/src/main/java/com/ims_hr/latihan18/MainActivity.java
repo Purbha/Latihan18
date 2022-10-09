@@ -39,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void Listen_B_OK1(){
         B_OK1.setOnClickListener(v -> {
-            String namaActivity = "com.ims_hr.latihan177.SatuActivity";
-            String namaPackage = "com.ims_hr.latihan177";
+            String namaActivity = "com.ims_hr.latihan17.SatuActivity";
+            String namaPackage = "com.ims_hr.latihan17";
             if(cekPackage(namaPackage) == true) {
                 Intent In = new Intent(namaActivity);
                 startActivity(In);
